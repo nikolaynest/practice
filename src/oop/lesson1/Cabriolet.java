@@ -10,4 +10,8 @@ public class Cabriolet extends Sedan {
         super(model, color, doors, chair);
         System.out.println("Construct cabriolet with chairs");
     }
+
+    public void openRoof(){
+        System.out.println("Open roof");
+    }
 }
